@@ -1,0 +1,130 @@
+.mainbody{
+    height: 93.5vh;
+    background-image: linear-gradient(90deg, #1EA1F2 50%, white 50%)
+    
+}
+.footer{
+    margin: 0;
+    padding: 
+    height: 6.5vh;
+    background: rgb(255, 255, 255);
+    opacity: 0.4;
+    word-spacing: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+
+.container{
+    width: 100%;
+}
+
+
+.line1{
+    font-size: 27px;
+    
+}
+.heading{
+    font-size: 18px;
+}
+.text{
+    font-size: 15px;
+    font-weight: normal;
+}
+.leftside{
+    
+    color: white;
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    padding:105px;
+    /*background-size: cover;*/
+}  
+    
+.background{
+    background-image: url(./assets/favicon.png);
+    background-position: center; /* Center the image */
+    background-size: 800px; /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat;
+    
+}
+
+.flexbox{
+    display: flex;
+}
+.leftside{
+    flex-grow: 1;
+    
+}
+.rightside{
+    flex-grow: 3;
+    color: black;
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    padding:105px;
+    
+}
+.centre{
+    
+    display:block;
+    text-align: left;
+}
+.allbutton{
+    padding: 12px;
+    border-radius: 19px;
+    border-color: #1EA1F2;
+    
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+.login{
+   
+    border-color: #1EA1F2;
+    color: #1EA1F2;
+}
+.button3{
+    margin-top: 14px;
+    padding: 8px 155px;
+    font-size: 14px;
+}
+.button2{
+    margin-top:0;
+    padding: 8px 150px;
+    font-size: 14px;
+    background: #1EA1F2;
+    color: white;
+
+}
+.button1{
+    margin-left: 230px;
+    font-weight: bold;
+}
+.makingright{
+    float: left;
+    margin-right: 50px;
+    
+}
+img{
+    margin-bottom: -26px;
+    margin-left: -10px;
+    opacity: 1.4;
+}
+.centerright{
+    
+	top:0;
+	bottom: 0;
+  	
+	margin: auto;
+}

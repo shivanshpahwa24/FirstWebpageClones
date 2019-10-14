@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 12vh;
+    width: 75vw;
+    margin: auto;
+   
+
+}
+.topbar{
+    background: #3A5997;
+    height : 12vh;
+    color: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+
+
+}
+
+.flexbox{
+    display: flex;
+}
+.mainbody{
+    height: 88vh;
+    background: linear-gradient(0 ,#D7DCEA,white);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+
+
+}
+
+.leftside{
+    flex-grow: 1;
+    line-height: 23vh;
+    
+
+}
+.rightside{
+    flex-grow: 1;
+    
+
+}
+
+.infotext{
+    font-weight: bold;
+    color: #0E375F;
+    font-size: 15pt;
+    
+    line-height: 25px;
+}
+
+.mainbody .leftside{
+    padding: 35px 0px;
+}
+
+.flex-right{
+    justify-content: flex-end;
+}
+.top-margin{
+    margin-top: 12px;
+}
+.input-box-top {
+    margin-right: 15px;
+    color: white;
+}
+label{
+    font-size: 12px;
+}
+.login-button{
+    background: rgb(64, 101, 173);
+    color: white;
+    font: bold;
+    border-color:rgb(37, 37, 37);
+    padding: 4px;
+    
+}
+
+a { 
+    color: rgb(187, 214, 255);
+    opacity: 0.6;
+    font-size: 13px;
+    margin-left: -200px;
+    text-decoration: none;
+    
+
+}
+
+.mainbody Input[type="text"]{
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: rgb(167, 167, 167);
+    margin-right: 10px;
+}
+
+.big-button Input[type="text"]{
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: rgb(167, 167, 167);
+    margin-top: 10px;
+    width: 188%;
+
+     
+}
+.big-button Input[type="password"]{
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: rgb(167, 167, 167);
+    margin-top: 10px;
+    width: 188%;
+}
+
+.birthday{
+    font-size: 15px;
+    opacity: 0.6;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    
+}
+select{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.mainbody Input[type="radio"]
+{
+    margin-right: 6px;
+    margin-left: 30px;
+}
+.female{
+    margin-left: -25px;
+}
+
+.mainbody p{
+    font-size: 11px;
+    opacity: 0.6;
+}
+.big-green{
+    padding: 7px 60px;
+    font-size: 20px;
+    background: #5F9C4C;
+    color: white;
+    border-radius: 6px;
+    border-color: darkgreen;
+    text-shadow: rgb(164, 168, 177);
+
+}
+
+.lastline{
+    font-size: 13px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    opacity: 0.6;
+
+}
+/*  word spacing is the term to be used if we added footer and needed space between english hindi bengali .... */
